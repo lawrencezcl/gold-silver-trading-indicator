@@ -1,0 +1,71 @@
+{
+  "backtest_summary": {
+    "spx": {
+      "initial_capital": 1000,
+      "final_capital": 1013.83,
+      "total_return_pct": 1.38,
+      "total_trades": 7,
+      "win_trades": 6,
+      "lose_trades": 1,
+      "win_rate_pct": 85.71,
+      "avg_win_pct": 1.32,
+      "avg_loss_pct": -1.02,
+      "max_win_pct": 1.5,
+      "max_loss_pct": -1.02,
+      "max_drawdown_pct": 0.2,
+      "sharpe_ratio": 3.99,
+      "profit_factor": 7.75
+    },
+    "ndx": {
+      "initial_capital": 1000,
+      "final_capital": 1044.05,
+      "total_return_pct": 4.4,
+      "total_trades": 8,
+      "win_trades": 8,
+      "lose_trades": 0,
+      "win_rate_pct": 100.0,
+      "avg_win_pct": 2.7,
+      "avg_loss_pct": 0,
+      "max_win_pct": 3.04,
+      "max_loss_pct": 0,
+      "max_drawdown_pct": 0,
+      "sharpe_ratio": 5.38,
+      "profit_factor": 0
+    }
+  },
+  "latest_signals": {
+    "spx": {
+      "date": "2026-02-06",
+      "symbol": "SPX",
+      "direction": "NEUTRAL",
+      "confidence": 45.7,
+      "prob_up": 54.3,
+      "prob_down": 45.7,
+      "expected_move": 0.2,
+      "stop_loss": 6951.48,
+      "take_profit": [
+        7143.85,
+        6887.35
+      ],
+      "position_size": 0.5,
+      "reason": "\u5a01\u79d1\u592b\u9636\u6bb5: MARKUP | \u4ef7\u503c\u533a\u95f4\u4f4d\u7f6e: \u4e2d\u4f4d | \u7efc\u5408\u4fe1\u53f7: 0.11"
+    },
+    "ndx": {
+      "date": "2026-02-06",
+      "symbol": "NDX",
+      "direction": "LONG",
+      "confidence": 5.2,
+      "prob_up": 55.2,
+      "prob_down": 44.8,
+      "expected_move": 0.44,
+      "stop_loss": 43036.86,
+      "take_profit": [
+        45635.12,
+        46377.47,
+        47862.19
+      ],
+      "position_size": 0.2,
+      "reason": "\u5a01\u79d1\u592b\u9636\u6bb5: LPS | \u4ef7\u503c\u533a\u95f4\u4f4d\u7f6e: \u9ad8\u4f4d | \u7efc\u5408\u4fe1\u53f7: 0.13"
+    }
+  }
+}
