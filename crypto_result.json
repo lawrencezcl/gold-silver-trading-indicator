@@ -1,0 +1,106 @@
+{
+  "backtest_summary": {
+    "btc": {
+      "symbol": "BTC",
+      "initial_capital": 1000,
+      "final_capital": 973.4,
+      "total_return_pct": -2.66,
+      "total_trades": 7,
+      "win_trades": 1,
+      "lose_trades": 6,
+      "win_rate_pct": 14.29,
+      "avg_win_pct": 1.75,
+      "avg_loss_pct": -1.51,
+      "max_win_pct": 1.75,
+      "max_loss_pct": -1.66,
+      "max_drawdown_pct": 3.5,
+      "sharpe_ratio": -0.91,
+      "profit_factor": 0.24
+    },
+    "eth": {
+      "symbol": "ETH",
+      "initial_capital": 1000,
+      "final_capital": 955.41,
+      "total_return_pct": -4.46,
+      "total_trades": 2,
+      "win_trades": 0,
+      "lose_trades": 2,
+      "win_rate_pct": 0.0,
+      "avg_win_pct": 0,
+      "avg_loss_pct": -5.67,
+      "max_win_pct": 0,
+      "max_loss_pct": -5.81,
+      "max_drawdown_pct": 4.46,
+      "sharpe_ratio": -39.46,
+      "profit_factor": 0.0
+    },
+    "bnb": {
+      "symbol": "BNB",
+      "initial_capital": 1000,
+      "final_capital": 980.85,
+      "total_return_pct": -1.92,
+      "total_trades": 4,
+      "win_trades": 0,
+      "lose_trades": 4,
+      "win_rate_pct": 0.0,
+      "avg_win_pct": 0,
+      "avg_loss_pct": -1.24,
+      "max_win_pct": 0,
+      "max_loss_pct": -1.38,
+      "max_drawdown_pct": 1.92,
+      "sharpe_ratio": -5.98,
+      "profit_factor": 0.0
+    }
+  },
+  "latest_signals": {
+    "btc": {
+      "date": "2026-02-06",
+      "symbol": "BTC",
+      "direction": "NEUTRAL",
+      "prob_up": 48.3,
+      "prob_down": 51.7,
+      "confidence": 5.8,
+      "expected_move": -0.12,
+      "stop_loss": 118639.69,
+      "take_profit": [
+        122864.69,
+        118639.69
+      ],
+      "position_size": 0.1,
+      "reason": "威科夫阶段: MARKUP | 价值区间位置: 高位 | 综合信号: -0.06"
+    },
+    "eth": {
+      "date": "2026-02-06",
+      "symbol": "ETH",
+      "direction": "NEUTRAL",
+      "prob_up": 48.3,
+      "prob_down": 51.7,
+      "confidence": 5.8,
+      "expected_move": -0.33,
+      "stop_loss": 3548.55,
+      "take_profit": [
+        3924.96,
+        3548.55
+      ],
+      "position_size": 0.1,
+      "reason": "威科夫阶段: MARKUP | 价值区间位置: 高位 | 综合信号: -0.06"
+    },
+    "bnb": {
+      "date": "2026-02-06",
+      "symbol": "BNB",
+      "direction": "SHORT",
+      "prob_up": 44.8,
+      "prob_down": 55.2,
+      "confidence": 17.5,
+      "expected_move": -0.65,
+      "stop_loss": 778.81,
+      "take_profit": [
+        729.41,
+        715.29,
+        687.06
+      ],
+      "position_size": 0.3,
+      "reason": "威科夫阶段: DISTRIBUTION | 价值区间位置: 高位 | 综合信号: -0.18"
+    }
+  }
+}
