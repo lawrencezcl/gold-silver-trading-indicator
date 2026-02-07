@@ -1,0 +1,70 @@
+{
+  "backtest_summary": {
+    "dax": {
+      "initial_capital": 1000,
+      "final_capital": 1028.4,
+      "total_return_pct": 2.84,
+      "total_trades": 8,
+      "win_trades": 7,
+      "lose_trades": 1,
+      "win_rate_pct": 87.5,
+      "avg_win_pct": 2.27,
+      "avg_loss_pct": -1.81,
+      "max_win_pct": 2.96,
+      "max_loss_pct": -1.81,
+      "max_drawdown_pct": 0.36,
+      "sharpe_ratio": 4.14,
+      "profit_factor": 8.77
+    },
+    "nikkei": {
+      "initial_capital": 1000,
+      "final_capital": 1034.89,
+      "total_return_pct": 3.49,
+      "total_trades": 11,
+      "win_trades": 10,
+      "lose_trades": 1,
+      "win_rate_pct": 90.91,
+      "avg_win_pct": 1.85,
+      "avg_loss_pct": -1.33,
+      "max_win_pct": 2.24,
+      "max_loss_pct": -1.33,
+      "max_drawdown_pct": 0.27,
+      "sharpe_ratio": 5.9,
+      "profit_factor": 13.92
+    }
+  },
+  "latest_signals": {
+    "dax": {
+      "date": "2026-02-06",
+      "symbol": "DAX",
+      "direction": "NEUTRAL",
+      "confidence": 47.4,
+      "prob_up": 52.6,
+      "prob_down": 47.4,
+      "expected_move": 0.18,
+      "stop_loss": 29339.5,
+      "take_profit": [
+        30572.2,
+        28928.6
+      ],
+      "position_size": 0.5,
+      "reason": "\u5a01\u79d1\u592b\u9636\u6bb5: MARKUP | \u4ef7\u503c\u533a\u95f4\u4f4d\u7f6e: \u9ad8\u4f4d | \u7efc\u5408\u4fe1\u53f7: 0.06"
+    },
+    "nikkei": {
+      "date": "2026-02-06",
+      "symbol": "NIKKEI",
+      "direction": "NEUTRAL",
+      "confidence": 45.8,
+      "prob_up": 54.2,
+      "prob_down": 45.8,
+      "expected_move": 0.21,
+      "stop_loss": 53598.29,
+      "take_profit": [
+        55254.62,
+        53046.18
+      ],
+      "position_size": 0.5,
+      "reason": "\u5a01\u79d1\u592b\u9636\u6bb5: MARKUP | \u4ef7\u503c\u533a\u95f4\u4f4d\u7f6e: \u9ad8\u4f4d | \u7efc\u5408\u4fe1\u53f7: 0.11"
+    }
+  }
+}
