@@ -1,0 +1,72 @@
+{
+  "backtest_summary": {
+    "hsi": {
+      "initial_capital": 1000,
+      "final_capital": 1030.1,
+      "total_return_pct": 3.01,
+      "total_trades": 8,
+      "win_trades": 7,
+      "lose_trades": 1,
+      "win_rate_pct": 87.5,
+      "avg_win_pct": 2.41,
+      "avg_loss_pct": -1.96,
+      "max_win_pct": 3.66,
+      "max_loss_pct": -1.96,
+      "max_drawdown_pct": 0.39,
+      "sharpe_ratio": 4.09,
+      "profit_factor": 8.59
+    },
+    "a50": {
+      "initial_capital": 1000,
+      "final_capital": 1028.19,
+      "total_return_pct": 2.82,
+      "total_trades": 7,
+      "win_trades": 5,
+      "lose_trades": 2,
+      "win_rate_pct": 71.43,
+      "avg_win_pct": 3.26,
+      "avg_loss_pct": -1.16,
+      "max_win_pct": 3.75,
+      "max_loss_pct": -2.33,
+      "max_drawdown_pct": 0.47,
+      "sharpe_ratio": 3.62,
+      "profit_factor": 6.99
+    }
+  },
+  "latest_signals": {
+    "hsi": {
+      "date": "2026-02-06",
+      "symbol": "HSI",
+      "direction": "LONG",
+      "confidence": 5.84,
+      "prob_up": 55.8,
+      "prob_down": 44.2,
+      "expected_move": 0.48,
+      "stop_loss": 29599.31,
+      "take_profit": [
+        31351.86,
+        31852.59,
+        32854.05
+      ],
+      "position_size": 0.2,
+      "reason": "\u5a01\u79d1\u592b\u9636\u6bb5: MARKUP | \u4ef7\u503c\u533a\u95f4\u4f4d\u7f6e: \u9ad8\u4f4d | \u7efc\u5408\u4fe1\u53f7: 0.15"
+    },
+    "a50": {
+      "date": "2026-02-06",
+      "symbol": "A50",
+      "direction": "LONG",
+      "confidence": 5.16,
+      "prob_up": 55.2,
+      "prob_down": 44.8,
+      "expected_move": 0.49,
+      "stop_loss": 21514.06,
+      "take_profit": [
+        22998.85,
+        23423.07,
+        24271.52
+      ],
+      "position_size": 0.2,
+      "reason": "\u5a01\u79d1\u592b\u9636\u6bb5: MARKUP | \u4ef7\u503c\u533a\u95f4\u4f4d\u7f6e: \u9ad8\u4f4d | \u7efc\u5408\u4fe1\u53f7: 0.13"
+    }
+  }
+}
